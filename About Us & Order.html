@@ -1,0 +1,135 @@
+<html>
+
+<head>
+<title>SPRING bookstore</title>
+<link href="stylesheet.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+
+<body>
+<DIV CLASS="HEADER">
+<div class="firstcontainer">
+<div class="navbar">
+
+	<div class="logo">
+		<img src="logo1.png">
+	
+	</div>
+
+<nav>
+	<ul id="menu">
+<li><a href="home.html">Home</a></li>
+<li><a href="English books.html">English</a></li>
+<li><a href="Kurdish books.html">Kurdish</a></li>
+<li><a href="Arabic books.html">Arabic</a></li>
+<li><a href="About Us & Order.html">About Us & Order</a></li>
+
+
+	</ul>
+
+</nav>
+	<img src="moon.png" id="icon">
+	<img src="menu.png" class="menui" onclick="menutoggle()">
+
+		</div>
+		<br>
+			</div>
+</div><!--order--->
+<h2> Order it</h2>
+
+<div class="fcontainer">
+<form action="#">
+<div class="user-detail">
+<div class="input">
+<span class="detail">Full Name</span>
+<input type="text" value="enter your name" required>
+</div>
+	<div class="input">
+<span class="detail">E-mail adress</span>
+<input type="text" value="enter your E-mail" required>
+</div>
+			<div class="input">
+<span class="detail">Enter Item Code</span>
+<input type="text" value="enter your item  code" required>
+</div>
+<button type="submit" s>Submit</button>
+</div>
+
+</form>
+</div>
+<!--r-->
+<h2>It is my first project I hope You like it</h2><br><br><br>
+<h4 style="text-align:center;">If you have any note and comment you can contact me with the medias I put  on the footer</h4><br><br><br>
+
+
+<h2 class="populartitle">Delivery are available for whole cities in Kurdistan<br>
+<MARK style="background:orange;">BUY TWO BOOKS ,GET FREE DELIVERY</MARK></h2>
+				<!-------footer---->
+	
+	 <div class="footer">
+		<div class="container">
+			<div class="footer1"><h3>Visit and Follow photocopies webpages: </h3><br>
+			<ul>
+			<LI><a href="https://www.facebook.com/Andeshalib" target="-blank">ANDESHE</a></LI><br>
+			<LI><a href="https://www.facebook.com/eadiban/" target="-blank">Adiban</a></LI><br>
+			<LI><a href="https://www.facebook.com/NawandiRenwen/" target="-blank">Renwen</a></LI><br>
+			<LI><a href="https://rushd.sa/" target="-blank">AL-Rushed</a></LI><br>
+			<LI><a href="https://www.amazon.com/"target="-blank">AMAZON</a></LI></ul>
+			</div>
+					
+			<div class="footer3"><h3>Follow us on: </h3>
+			<ul>
+			<div class="ins"><a href="https://www.amazon.com/"><i class="fa fa-instagram" aria-hidden="true"><br>Instagram</i></a><br></div>
+			<div class="fb">	<a href="https://www.amazon.com/"><i class="fa fa-facebook-official" aria-hidden="true"><br>Facebook</i></a><br></div>
+			<a href="https://www.amazon.com/"><i class="fa fa-youtube-play" aria-hidden="true"><br>You Tube</i></a><br>
+			</ul>
+			</div>
+			<div class="footer2"><h3>SPRING Bookstore </h3>
+            <img src="logo1.png">
+			</div>
+	<hr>
+<p class="copyright">Copyright 2021</p>
+		</div>
+	 </div>
+				
+		
+							<script>
+							var menu=document.getElementById("menu");
+							
+							menu.style.maxHeight="0px";
+							
+							function menutoggle()
+						{
+							if (menu.style.maxHeight=="0px")
+							{
+							menu.style.maxHeight="200px"
+							}
+							else {
+							menu.style.maxHeight="0px"
+							}
+						}
+							
+							</script>
+	<script>
+	var icon=document.getElementById("icon");
+	
+	icon.onclick=function(){
+	document.body.classList.toggle("darkmode");
+	if(document.body.classList.contains("darkmode")){
+	icon.src="sun.png";
+	}
+	else{
+	icon.src="moon.png";
+	}
+}
+	
+	
+	</script>
+</body>
+
+
+</html>
